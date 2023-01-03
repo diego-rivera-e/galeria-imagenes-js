@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    height: 100vh;
+}
+.menu {
+    background-color: white;
+    display: flex;
+    color: rgb(8, 8, 8);
+    flex-direction: column;
+}
+.main {
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menu img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.menu_usuario {
+    display: flex;
+    width: 220px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+.contactos {
+    display: flex;
+    flex-direction: column;
+}
+.contactos .usuario_foto {
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+.usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.estado {
+    font-size: 12px;
+}
+
+.contactos .usuario_foto img {
+    margin-left: 14px;
+}
+
+.usuario_foto {
+    display: flex;
+}
+.nuevo_chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+.nuevo_chat button {
+    background-color: rgb(174, 6, 252);
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    font-size: 10px;
+}
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+}
